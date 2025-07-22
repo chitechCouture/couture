@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, pink, purple , blue);
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
+  background-image: linear-gradient(to right, pink, purple , blue);
+}
+
+.logo {
+  color: white
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,6 +34,49 @@
 .App-link {
   color: #61dafb;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  background: #444;
+  opacity: 0.6;
+  padding: 1rem;
+  position: absolute;
+  top: 5vw;
+  right: -1vw;
+}
+
+.navbar-links.open {
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0.5rem 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
 
 @keyframes App-logo-spin {
   from {
