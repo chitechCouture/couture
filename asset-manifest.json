@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/couture/static/css/main.66659d5d.css",
+    "main.js": "/couture/static/js/main.4996eae7.js",
+    "static/js/453.b93e68a3.chunk.js": "/couture/static/js/453.b93e68a3.chunk.js",
+    "static/media/ctslogo.jpg": "/couture/static/media/ctslogo.0baf0fd0cbc09edd9b04.jpg",
+    "static/media/ctslogo.svg": "/couture/static/media/ctslogo.d79f6bf35273e6d16da9e5898e482a83.svg",
+    "index.html": "/couture/index.html",
+    "static/media/hamburger-menu-svgrepo-com.svg": "/couture/static/media/hamburger-menu-svgrepo-com.14f9adc5873a5ccc723ca2bbf71486d7.svg",
+    "main.66659d5d.css.map": "/couture/static/css/main.66659d5d.css.map",
+    "main.4996eae7.js.map": "/couture/static/js/main.4996eae7.js.map",
+    "453.b93e68a3.chunk.js.map": "/couture/static/js/453.b93e68a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66659d5d.css",
+    "static/js/main.4996eae7.js"
+  ]
+}
